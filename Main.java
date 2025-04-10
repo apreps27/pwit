@@ -2,7 +2,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Cat torrada = new Cat("Domestic", "Male", "Orange", 3);
+        Cat torrada = new Cat("Domestic", "Male", "Orange", 3, "Green");
 
         Cat turtle = new Cat();
 

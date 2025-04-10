@@ -4,14 +4,16 @@ public class Cat {
     String breed;
     String gender;
     String color;
+    String eyeColor;
     int age;
 
     // Constructors
-    Cat(String breed, String gender, String color, int age) {
+    Cat(String breed, String gender, String color, int age, String eyeColor) {
         this.breed = breed;
         this.gender = gender;
         this.color = color;
         this.age = age;
+        this.eyeColor = eyeColor;
     }
     Cat(){}
 
@@ -45,5 +47,13 @@ public class Cat {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public String getEyeColor() {
+        return eyeColor;
+    }
+
+    public void setEyeColor(String eyeColor) {
+        this.eyeColor = eyeColor;
     }
 }
